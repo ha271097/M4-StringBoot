@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    <table th:object="${cus}">
+        <tr>
+            <td>Name</td>
+        </tr>
+        <tr>
+            <td>
+                <input th:field="${cus.name}">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="update">
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
