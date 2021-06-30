@@ -1,7 +1,7 @@
 package com.codegym.m4b17th.controller;
 
 import com.codegym.m4b17th.repo.entity.Customer;
-import com.codegym.m4b17th.service.ICustomerService;
+import com.codegym.m4b17th.service.customerservice.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
